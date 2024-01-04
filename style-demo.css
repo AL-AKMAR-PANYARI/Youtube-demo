@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Arvo;
+    src: url(./Arvo-BoldItalic.woff);
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(./Terrace-central-park-NYC.jpg);
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Arvo;
+    font-weight: 100;
+    font-size: 65px;
+    color: #fff;
+    mix-blend-mode: difference;
+}
